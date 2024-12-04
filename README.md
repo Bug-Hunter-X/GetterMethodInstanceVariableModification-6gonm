@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Ruby related to modifying instance variables indirectly through getter methods.  The `MyClass` example shows how attempting to set a value using the getter method (which only reads) does not work as intuitively expected.  The solution shows how to correctly define a setter method to allow modification.
